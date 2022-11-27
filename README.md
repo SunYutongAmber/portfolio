@@ -5,7 +5,7 @@
 
 Figure 1 is a scatter plot that shows the trend of AAVE token's 30-day moving average of the decentralization index. X-axis shows the dates from Oct 2020 to Jan 2023. Y-axis shows the 30-day moving average of decentralization index. The scatter size represents the average value. When the size of the dot is larger, it has the average value is higher. According to the graph, the highest average value is achieved in June 2021.
 
-![image](image/Figure 1- Aave Decentralization Index 30 Day Moving Average.png)
+![image](https://github.com/SunYutongAmber/portfolio/blob/main/image/Figure%201-%20Aave%20Decentralization%20Index%2030%20Day%20Moving%20Average.png)
 
 ## Figure 2- Comp Decentralization Index 30 Day Moving Average
 ![image](./image/Figure 2- Comp Decentralization Index 30 Day Moving Average.png)
