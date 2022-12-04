@@ -9,8 +9,9 @@ For Part II, I query Cryptopunks transaction data from [Kaggle](https://www.kagg
 
 |  | Part I Explaination  | Part II Prediction and Classification |
 | ------------- | ------------- | ------------- |
-| code| [code for explaination](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Explanatory_Cryptopunks_Data_Analysis.ipynb) |
+| code| [code for explaination](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Explanatory_Cryptopunks_Data_Analysis.ipynb) 
 | [code for query data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Query_CryptoPunks_Data_yutong_sun.ipynb),[code for process data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Process_Cryptopunk_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb),[code for prediction and classification](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Analyze_Cryptopunks_Data_Machine_Learning_for_Predicting_Market_Congestion.ipynb)| |------------- | ------------- | ------------- |
+
 
 
 # Splotlight for Explainatory Part:
