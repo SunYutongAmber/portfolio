@@ -1,9 +1,13 @@
 # Project information
+![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/Flowchart.png)
+
+**Figure 1. Flow Chart for the Project (created by Whimsical)**
+
 With the development of Non-Fungible Token, there are many related art products created based on it, and CryptoPunks is one of them [(Ante 2022)](https://www.tandfonline.com/doi/abs/10.1080/10438599.2022.2119564). [CryptoPunks](https://www.coindesk.com/learn/cryptopunks-cryptocats-and-cryptokitties-how-they-started-and-how-theyre-going/) are 24x24 pixel portraits that were originally offered by Larva Labs for free in June 2017. 
 
 In this project, I aim to use the previous Cryptopunks' price to predict the future price. 
 For part I, I first visualize the data for an explanation.
-For Part II, I query Cryptopunks transaction data from [Kaggle](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan). This data set contains information about the transaction date, transaction price, transfer address, and the type of Cryptopunks. transaction price (eth) is set as the Y variable, and the shift version of Y is set as the X variable. I use X to classify and predict Y.
+For Part II, I query Cryptopunks transaction data from [Kaggle](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan). This data set contains information about the transaction date, transaction price, transfer address, and the type of Cryptopunks. transaction price (eth) is set as the Y variable, and the shift version of Y is set as the X variable. I use X to classify and predict Y. The flow chart of this project is shown in Figure 1.
 
 # Table of Content (Data, Code, and Image)
 
@@ -16,22 +20,22 @@ For Part II, I query Cryptopunks transaction data from [Kaggle](https://www.kagg
 
 
 # Splotlight for Explanatory Part:
-For this part, I create a histogram contour map for the Time series cryptopunks price data. The figure is shown in figure 1.
+For this part, I create a histogram contour map for the Time series cryptopunks price data. The figure is shown in Figure 2.
 ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/Histogram_Contour%20plot%20for%20Cryptopunks%20average%20price.png) 
 
-**Figure1. Histogram_Contour for Cryptopunks Price (created by Plotly)** 
+**Figure2. Histogram_Contour for Cryptopunks Price (created by Plotly)** 
 
 The darker the section means the higher the transaction price for Cryptopunks. From this graph, we could find that the overall trend for the histogram is increasing over time, and the highest price is achieved in Oct 2021 (The latest date recorded in the data is only up to October 2021). I also draw the histogram to visualize the distribution of transaction data of Cryptopunks in Figure 2. It is skewed to the right, which means that there are many extremely large values of some crypto punks, and most Cryptopunks have prices close to 0.01 ETH.
 ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/distribution%20of%20cryptopunks%20price.png) 
 
-**Figure2. Distribution for Cryptopunks Price (created by Plotly)**
+**Figure3. Distribution for Cryptopunks Price (created by Plotly)**
 
 
 # Splotlight for Classification and Prediction Part:
-For classification, I use Neural network models (supervised) to classify the price data. Here is the matrix (Figure 3): 
+For classification, I use Neural network models (supervised) to classify the price data. Here is the matrix (Figure 4): 
 ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/confusion%20matrix%20for%20classification.png) 
 
-**Figure3. Confusion Matrix for Cryptopunks Price Classification (created by Plotly)**
+**Figure4. Confusion Matrix for Cryptopunks Price Classification (created by Plotly)**
 
 This matrix shows that there are 63 False Negatives and 268 True Negatives. That means the neural network model does not perform well, because all results are predicted as negative, but there are only 80.97% are predicted correctly.
 
