@@ -21,7 +21,7 @@ For this part, I create a histogram contour map for the Time series cryptopunks 
 
 **Figure1. Histogram_Contour for Cryptopunks Price** 
 
-The darker the section means the higher transaction price for Cryptopunks, and from this graph, we would say that the overall trend for the histogram is increasing overtime, and the highest price is achieved in Oct 2021 (the max date in the date set is Oct 2021). I also graw the histogram to visulaize the distribution of transaction data of Cryptopunks, and it is skewed to the right, which means that there are many extreme large value of some cryptopunks. 
+The darker the section means the higher transaction price for Cryptopunks, and from this graph, we could find that the overall trend for the histogram is increasing overtime, and the highest price is achieved in Oct 2021 (The latest date recorded in the data is only up to October 2021). I also draw the histogram to visulaize the distribution of transaction data of Cryptopunks in Figure 2. It is skewed to the right, which means that there are many extreme large value of some cryptopunks. 
 ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/distribution%20of%20cryptopunks%20price.png) 
 **Figure2. Distribution for Cryptopunks Price**
 
