@@ -7,20 +7,12 @@ For Part II, I query Cryptopunks transaction data from [Kaggle](https://www.kagg
 
 # Table of Content (Data, Code, and Image)
 
-|  | Part I Explaination  | Part II Prediction and Classification |
-
-| ------------- |: ------------- :|: ------------- :|
-
-| code | [code for explaination](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Explanatory_Cryptopunks_Data_Analysis.ipynb) 
-| [code for query data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Query_CryptoPunks_Data_yutong_sun.ipynb),[code for process data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Process_Cryptopunk_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb),[code for prediction and classification](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Analyze_Cryptopunks_Data_Machine_Learning_for_Predicting_Market_Congestion.ipynb)|
-
-
 
 | Tables        | Part I Explaination           | Part II Prediction and Classification   |
 | ------------- |:-------------:| -----:|
 | code        | [code for explaination](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Explanatory_Cryptopunks_Data_Analysis.ipynb) | [code for query data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Query_CryptoPunks_Data_yutong_sun.ipynb),[code for process data](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Process_Cryptopunk_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb),[code for prediction and classification](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/code/Analyze_Cryptopunks_Data_Machine_Learning_for_Predicting_Market_Congestion.ipynb) |
-| data        | data for Part I      |   data for Part II |
-| image      | explaination image for Part I     |  Confusion matrix and ROC curve for Part II |
+| data        | [data for Part I](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/data/queried_cryptopunks_data.csv)      |   [data for Part II](https://github.com/SunYutongAmber/portfolio/tree/main/Problem_set2/data) |
+| image      | [explaination image for Part I](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/Histogram_Contour%20plot%20for%20Cryptopunks%20average%20price.png)     |  [Confusion matrix and ROC curve for Part II](https://github.com/SunYutongAmber/portfolio/tree/main/Problem_set2/image) |
 
 
 # Splotlight for Explainatory Part:
