@@ -1,6 +1,8 @@
 
 
 References:
+DUON, BAO TRAM. (2021). Generate NFT CryptoPunks with DGGAN. Kaggle.com. Retrieved from 
+https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan.
 Zhang, L. (Sunshine). (2022). Machine Learning for Predictions. Machine Learning for Social
 Science. Retrieved from https://ms.pubpub.org/pub/ml-prediction
 Zhang, L. (Sunshine). (2022). Venues for Computer Security and Beyond. Machine Learning for
