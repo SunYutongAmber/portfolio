@@ -21,7 +21,7 @@ For this part, I create a histogram contour map for the Time series cryptopunks 
 
 
 # Splotlight for Classification and Prediction Part:
-For classidication, I use Neural network models (supervised) to classify the price data. Here is the matrix: !{image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/confusion%20matrix%20for%20classification.png)
+For classidication, I use Neural network models (supervised) to classify the price data. Here is the matrix: ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/confusion%20matrix%20for%20classification.png)
 This matirx shows that there are 63 False Negtive and 268 True Negtive. That means the neural network model does not perform well, because all results are predicted as negtive, but there are only 80.97% are predicted correctly.
 
 
