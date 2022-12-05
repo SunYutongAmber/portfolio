@@ -25,7 +25,7 @@ For this part, I create a histogram contour map for the Time series cryptopunks 
 
 **Figure2. Histogram_Contour for Cryptopunks Price (created by Plotly)** 
 
-The darker the section means the higher the transaction price for Cryptopunks. From this graph, we could find that the overall trend for the histogram is increasing over time, and the highest price is achieved in Oct 2021 (The latest date recorded in the data is only up to October 2021). I also draw the histogram to visualize the distribution of transaction data of Cryptopunks in Figure 2. It is skewed to the right, which means that there are many extremely large values of some crypto punks, and most Cryptopunks have prices close to 0.01 ETH.
+X-axis is the transaction date, and Y-axis is correponding price. The darker the section means the higher the transaction price for Cryptopunks. From this graph, we could find that the overall trend for the histogram is increasing over time, and the highest price is achieved in Oct 2021 (The latest date recorded in the data is only up to October 2021). I also draw the histogram to visualize the distribution of transaction data of Cryptopunks in Figure 2. It is skewed to the right, which means that there are many extremely large values of some crypto punks, and most Cryptopunks have prices close to 0.01 ETH.
 ![image](https://github.com/SunYutongAmber/portfolio/blob/main/Problem_set2/image/distribution%20of%20cryptopunks%20price.png) 
 
 **Figure3. Distribution for Cryptopunks Price (created by Plotly)**
