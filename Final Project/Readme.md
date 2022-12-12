@@ -52,6 +52,7 @@ b_0 is the expected ROI when the Cryptopunk is in male and dark skin, and b1 is 
 I expect that predict ROI should be close to the real ROI as shown in Figure 3. And I also expect that the predicted ROI will be higher for female in Alboni skin tone because the number of Cryptopunks in this type is the least. Because Cryptopunks are only limited to 1000 tokens stored on Ethereum blockchain (Kong and Lin 2021). And Cryptopunks are fixed in total number so the scarceness of this type of Cryptopunks will not be changed in a short time and there is potential for this type of Cryptopunks to increase in price, and thus are expected to have higher ROI (Kampakis and Schaar 2022). The results could be used as reference for investors for picking Cryptopunks according to the gender and skin tone attributes.
 
 ![Figure 3. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png) 
+
 Figure 3. The expected result of the predicted ROI and the true ROI
 
 
