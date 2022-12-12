@@ -1,11 +1,11 @@
-# Title [How to Choose a Good Title?](https://www.nature.com/articles/s41562-021-01152-2)
+# Predicting the return on investment of Cryptopunks with gender and skin tone factors using Ridge Regression
 ## Project information
-- **Author**: [Yutong][Sun], [Applied Math], [2023], Duke Kunshan University
+- **Author**: Yutong Sun, Applied Math, Class of 2023, Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
 - **Disclaimer**: Submissions to the Final Project for STATS201 Introduction to Machine Learning for Social Science, 2022 Autumn Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.
-- **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
-[notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
-- **Project Summary**: [Summarize the Background/Motivation, Research Questions, Application Scenario (Data Source), Results, Intellectual Merits and Practical impacts of your project.]
+- **Acknowledgments**: I would like to express my greatest gratitude to Prof. Luyao Zhang for her inspiring supporting and instructions on STATS201 Introduction to Machine Learning for Social Science. And I would like to express my greatest gratitude to my peer Isabella Kroon for her inspiring comments on the draft poster and summary. 
+
+## Project Summary**: [Summarize the Background/Motivation, Research Questions, Application Scenario (Data Source), Results, Intellectual Merits and Practical impacts of your project.]
 
 ## Table of Contents
 - data
