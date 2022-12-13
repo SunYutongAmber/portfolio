@@ -20,8 +20,8 @@
 
 The literature structure is shown in Figure 1.
 
-   - ![Figure 1. The literature of intellectual merits](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20Literature%20Flow%20chart.png)
-   - Figure 1. The literature of intellectual merits
+    - ![Figure 1. The literature of intellectual merits](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20Literature%20Flow%20chart.png)
+    - Figure 1. The literature of intellectual merits
 
 
 - **Practical Use:** Our research explores the impact of the gender and skin tone factors on the prediction ROI of Cryptopunks. And the research results could be used by investors when making investment decision in the Cryptopunks market. 
