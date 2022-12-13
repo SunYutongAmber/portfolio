@@ -7,16 +7,16 @@
 
 ## Project Summary: [Summarize the Background/Motivation, Research Questions, Application Scenario (Data Source), Results, Intellectual Merits and Practical impacts of your project.]
 
-### Background and Motivation: 
+### **Background and Motivation:**
 
 With the development of Non-Fungible Tokens, there are many related art products created based on them, and CryptoPunks is one of them. CryptoPunks are 24x24 pixel portraits created in 2017 (An example of Cryptopunks is shown in Figure 1. “What Is CryptoPunk - Zipmex” 2022). And they were created by Larva Labs and provide their users for free (Ante 2022). Users can now trade Cryptopunks on the secondary market, and different Cryptopunks will bring different Return on Investment (ROI). The ROI of Cryptopunks is influenced by many factors, including market factors, news and the characteristics of the Cryptopunks themselves, etc (Kampakis and Schaar 2022). However, the gender and skin tone factors are not well studied yet regarding the ROI of Cryptopunks. In this research, I will explore the question: how do the gender and skin tone factors influence the prediction of the ROI of Cryptopunks?  It is important to explore the impact of different factors on the ROI of Cryptopunks. Because we need to use these factors to predict the market ROI of Cryptopunks and to make investment decisions accordingly. In addition, the gender and skin tone factors are also important for Cryptopunks' ethical issue, we also want to explore whether the difference in Cryptopunks’ gender and skin tone will influence people’s valuation of them, and whether there is discrimination regarding the gender and skin tone of Cryptopunks.
 
 
-### Research Question:
+### **Research Question:**
 How do the gender and skin tone factors influence the prediction of the ROI of Cryptopunks?  
 
-### The discussion of literature under intellectual merits and practical impacts: 
-#### Intellectual Merits:
+### **The discussion of literature under intellectual merits and practical impacts:** 
+#### **Intellectual Merits:**
 There is much literature exploring the influence factors of Cryptopunks’ return. For example, Kong and Lin summarize some literature that analyzes the influence factor in the NFT market, and they conclude that the price and return are influenced greatly by factors like other traditional markets’ behavior, the token’s rarity, and the aesthetic of people (Kong and Lin 2021). Urom, Ndubuisi, and Guesmi use the quantile regression model to predict the Cryptopunks return with the market volume and market uncertainty risk index and other markets’ behavior as the predictor variable, and they conclude that these factors are good predictors, especially under extreme market conditions. And they also find that increasing in bitcoin market price will reduce the return of NFT market (Urom, Ndubuisi, and Guesmi 2022). Previous studies on Cryptopunks’ returns mostly focus on their relation to other markets and the cryptocurrency market. However, these papers do not analyze specific attributes like gender and skin tone’s influence on Cryptopunk return. Our research will contribute to the literature with gender and skin tone factors’ influence on Cryptopunks’ return analysis.
 
 Many machine learning models are applied to predict the price of Cryptopunks. For example, Kraeussl and Tugnetti summarize and compare the literature on predicting models of Cryptopunks’ value and discuss their application scenarios (Kraeussl and Tugnetti 2022). Kampakis and Schaar explore the influence of the rarity of the attributes of Cryptopunks’ images on Cryptopunks’ price using the hedonic regression model, and they find that the rarity of attributes of Cryptopunk has a positive influence on the price of Cryptopunks (Kampakis and Schaar 2022). And Ho et al. study the influence of the utility factor for NFT price prediction using XGBoost regression, and they find that the Crtptopunks that bring higher utility for people are valued higher (Ho et al. 2022).  However, most of these regression models are used for Cryptopunks’ price prediction, and no research predicts the return on investment (ROI) of Cryptopunks using Ridge Regression. Our research will contribute to the literature by using the Ridge model for the prediction of Cryptopunks’ return rather than price.
@@ -29,17 +29,17 @@ The literature structure is shown in Figure 1.
 Figure 1. The literature of intellectual merits
 
 
-#### Practical Use:
+#### **Practical Use:**
 Our research explores the impact of the gender and skin tone factors on the prediction ROI of Cryptopunks. And the research results could be used by investors when making investment decision in the Cryptopunks market. 
 
 
-### Application Scenario: 
+### **Application Scenario:**
 This project uses a [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), and this data set is drawn from the Cryptopunks Transaction board using API (DUON 2021). The original dataset contains information about the transaction date, the transaction address, the price of Cryptopunks, the gender, and other attributes of the Cryptopunks’ image. I use the percentage change of Cryptopunk price to get the return on investment value, which is the Y variable. And gender and skin tone are X variables. In Figure 2, I visualize the ROI time series data with the x-axis being time and the y-axis ROI values.
 
 ![Figure 2. The ROI time series data](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Scatter%20Plot%20for%20ROI%20over%20time.png) 
 Figure 2. The ROI time series data
 
-### Methods:
+### **Methods:**
 This research uses Ridge Regression to predict the ROI with gender and skin tone factors. Ridge regression is a method for estimating the coefficient of a multiple regression model. Compared to linear regression, this method improves the coefficient estimation accuracy and assigns different weights to the features (Hoerl and Kennard 1970). Using the regression formula with estimated coefficients from Ridge regression, we could conduct prediction.
 In python, we could use the ridge regression function (Ridge. coef_), it will return a coefficient of each variable for the regression model. From these coefficients, we could check what’s the influence each gender and skin tone type has on the prediction of Cryptopunks’ ROI. Because gender and skin tone factors are all categorical variables, so we set them as dummy X variables that only have values of 0 or 1. Then the ridge regression formula  is:
 
@@ -48,8 +48,8 @@ y=b_0+b_1*X_female+b_2*X_light+b_3*X_medium+b_4*X_alboni
 b_0 is the expected ROI when the Cryptopunk is in male and dark skin, and b1 is the number of increase(or decrease) comparing to b_0 in ROI when the Cryptopunk is in female and dark skin. If the b_1 is positive number, that means female Cryptopunks are expected to return higher value for investment. Similarly, b_2 means the number of increase(or decrease) comparing to b_0 in ROI prediction when the Cryptopunk is in male and light skin. If the b_2 is positive number, that means Cryptopunks in light skin tone are expected to return higher value for investment than dark skin. Similar explanation works for X_medium and X_alboni.
 
 
-### Expected Results:
-I expect that predict ROI should be close to the real ROI as shown in Figure 3. In Figure 3, the x-axis is the ROI value, and the y-axis is the counts. So the overall figure shows the distribution of the predicted ROI (in green bar) and real ROI (in blue bar). The more overlapped part of the two ROI data, the more accurate our prediction is. And I also expect that the predicted ROI will be higher for female in Alboni skin tone because the number of Cryptopunks in this type is the least. Because Cryptopunks are only limited to 1000 tokens stored on Ethereum blockchain (Kong and Lin 2021). And Cryptopunks are fixed in total number so the scarceness of this type of Cryptopunks will not be changed in a short time and there is potential for this type of Cryptopunks to increase in price, and thus are expected to have higher ROI (Kampakis and Schaar 2022). The results could be used as reference for investors for picking Cryptopunks according to the gender and skin tone attributes.
+### **Expected Results:**
+I expect that predict ROI should be close to the real ROI as shown in Figure 3. In Figure 3, the x-axis is the ROI value, and the y-axis is the counts. So the overall figure shows the distribution of the predicted ROI (in green bar) and real ROI (in blue bar). The more overlapped part of the two ROI data, the more accurate our prediction is. And I also expect that the predicted ROI will be higher for female in Alboni skin tone because the number of Cryptopunks in this type is the least. Because Cryptopunks are only limited to 1000 tokens stored on Ethereum blockchain (Kong and Lin 2021). And Cryptopunks are fixed in total number so the scarceness of this type of Cryptopunks will not be changed in a short time and there is potential for this type of Cryptopunks to increase in price, and thus are expected to have higher ROI (Kampakis and Schaar 2022). The results could be used as reference for investors for picking Cryptopunks according to the gender and skin tone attributes. 
 
 ![Figure 3. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png) 
 
