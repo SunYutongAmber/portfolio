@@ -122,19 +122,74 @@ This is Yutong Sun, the research assistant at SciEcon CIC and a senior student m
 - [stats201-tutorial-prediction/code](https://github.com/Rising-Stars-by-Sunshine/stats201-tutorial-prediction/tree/main/code)
 
 ### Literature
-- Literature References in [Chicago Author-Date](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html) Style and [BibTex](https://scholar.google.com/) 
 
-Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
+DUON, BAO TRAM. 2021. “Generate NFT CryptoPunks with DGGAN.” Kaggle.com. 2021. https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan.
+
+Hoerl, Arthur E., and Robert W. Kennard. 1970. “Ridge Regression: Biased Estimation for Nonorthogonal Problems.” Technometrics 12 (1): 55–67. https://doi.org/10.1080/00401706.1970.10488634.
+
+Kampakis, Stylianos, and Luisa Schaar. 2022. “Non-Fungible Tokens as an Alternative Investment – Evidence from CryptoPunks.” The Journal of the British Blockchain Association 5 (1): 1–12. https://doi.org/10.31585/jbba-5-1-(2)2022.
+
+Kong, De-Rong, and Tse-Chun Lin. 2021. “Alternative Investments in the Fintech Era: The Risk and Return of Non-Fungible Token (NFT).” Papers.ssrn.com. Rochester, NY. August 30, 2021. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3914085.
+
+Kraeussl, Roman, and Alessandro Tugnetti. 2022. “Non-Fungible Tokens (NFTs): A Review of Pricing Determinants, Applications and Opportunities.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4112429.
+
+Loi, Fai Lim, and Ke Tang. 2022. “Physical Appearance and Nonfungible Token Pricing: Evidence from Cryptopunks.” SSRN Electronic Journal. https://doi.org/10.2139/ssrn.4202168.
+
+“Machine Intelligence Makes Human Morals More Important | Zeynep Tufekci.” 2016. Www.youtube.com. November 11, 2016. https://www.youtube.com/watch?v=hSSmmlridUM&t=3s.
+
+Nguyen, Jeremy. 2022. “Racial Discrimination in Non-Fungible Token (NFT) Prices? CryptoPunk Sales and Skin Tone.” Economics Letters 218 (July): 110727. https://doi.org/10.1016/j.econlet.2022.110727.
+
+“Title How to Choice a Good Title?” 2022. GitHub. November 29, 2022. https://github.com/Rising-Stars-by-Sunshine/stats201-tutorial-prediction.
+
+Urom, Christian, Gideon Ndubuisi, and Khaled Guesmi. 2022. “Dynamic Dependence and Predictability between Volume and Return of Non-Fungible Tokens (NFTs): The Roles of Market Factors and Geopolitical Risks.” Finance Research Letters 50 (December): 103188. https://doi.org/10.1016/j.frl.2022.103188.
+
+“What Is CryptoPunk? Why Are They so Expensive? - Zipmex.” 2022. Zipmex.com. August 1, 2022. https://zipmex.com/learn/cryptopunk-explained/.
+
+Zhang, Luyao (Sunshine). 2022a. “Venues for Machine Learning.” Machine Learning for Social Science, November. https://ms.pubpub.org/pub/ml.
+
+———. 2022b. “Computing Platforms: Set up the Workspace for Machine Learning Projects.” Machine Learning for Social Science, November. https://ms.pubpub.org/pub/computing.
+
+———. 2022c. “Venues for Computer Security and Beyond.” Machine Learning for Social Science, November. https://ms.pubpub.org/pub/security.
+
+———. 2022d. “Resources for Blockchain Network Studies.” Machine Learning for Social Science, November. https://ms.pubpub.org/pub/network.
+
+———. 2022e. “Machine Learning for Predictions.” Machine Learning for Social Science, November. https://ms.pubpub.org/pub/ml-prediction.
+
+Zhang, Yufan, Zichao Chen, Luyao Zhang, and Xin Tong. 2022. “Visualizing Non-Fungible Token Ethics: A Case Study on CryptoPunks.” ArXiv:2206.12922 [Cs], June. https://arxiv.org/abs/2206.12922.
 
 
-@article{levin2022bridging,
-  title={Bridging level-k to nash equilibrium},
-  author={Levin, Dan and Zhang, Luyao},
-  journal={Review of Economics and Statistics},
-  volume={104},
-  number={6},
-  pages={1329--1340},
-  year={2022},
-  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
-}
+```
+@misc{duon_2021, title={Generate NFT CryptoPunks with DGGAN}, url={https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan}, journal={kaggle.com}, author={DUON, BAO TRAM}, year={2021} } 
 
+@article{hoerl_kennard_1970, title={Ridge Regression: Biased Estimation for Nonorthogonal Problems}, volume={12}, DOI={10.1080/00401706.1970.10488634}, number={1}, journal={Technometrics}, author={Hoerl, Arthur E. and Kennard, Robert W.}, year={1970}, month={Feb}, pages={55–67} } 
+
+@article{kampakis_schaar_2022, title={Non-fungible Tokens as an Alternative Investment – Evidence from CryptoPunks}, volume={5}, DOI={10.31585/jbba-5-1-(2)2022}, number={1}, journal={The Journal of The British Blockchain Association}, author={Kampakis, Stylianos and Schaar, Luisa}, year={2022}, month={Jan}, pages={1–12} } 
+
+@misc{kong_lin_2021, place={Rochester, NY}, title={Alternative Investments in the Fintech Era: The Risk and Return of Non-fungible Token (NFT)}, url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3914085}, journal={papers.ssrn.com}, author={Kong, De-Rong and Lin, Tse-Chun}, year={2021}, month={Aug} } 
+
+@article{kraeussl_tugnetti_2022, title={Non-Fungible Tokens (NFTs): A Review of Pricing Determinants, Applications and Opportunities}, DOI={10.2139/ssrn.4112429}, journal={SSRN Electronic Journal}, author={Kraeussl, Roman and Tugnetti, Alessandro}, year={2022} } 
+
+@article{loi_tang_2022, title={Physical Appearance and Nonfungible Token Pricing: Evidence from Cryptopunks}, DOI={10.2139/ssrn.4202168}, journal={SSRN Electronic Journal}, author={Loi, Fai Lim and Tang, Ke}, year={2022} } 
+
+@article{nguyen_2022, title={Racial discrimination in non-fungible token (NFT) prices? CryptoPunk sales and skin tone}, volume={218}, DOI={10.1016/j.econlet.2022.110727}, journal={Economics Letters}, author={Nguyen, Jeremy}, year={2022}, month={Jul}, pages={110727} } 
+
+@article{urom_ndubuisi_guesmi_2022, title={Dynamic dependence and predictability between volume and return of Non-Fungible Tokens (NFTs): The roles of market factors and geopolitical risks}, volume={50}, DOI={10.1016/j.frl.2022.103188}, journal={Finance Research Letters}, author={Urom, Christian and Ndubuisi, Gideon and Guesmi, Khaled}, year={2022}, month={Dec}, pages={103188} } 
+
+@article{zhang_2022a, title={Venues for Machine Learning}, url={https://ms.pubpub.org/pub/ml}, journal={Machine Learning for Social Science}, author={Zhang, Luyao (Sunshine)}, year={2022}, month={Nov} } 
+
+@article{zhang_2022b, title={Computing Platforms: Set up the Workspace for Machine Learning Projects}, url={https://ms.pubpub.org/pub/computing}, journal={Machine Learning for Social Science}, author={Zhang, Luyao (Sunshine)}, year={2022}, month={Nov} } 
+
+@article{zhang_2022c, title={Venues for Computer Security and Beyond}, url={https://ms.pubpub.org/pub/security}, journal={Machine Learning for Social Science}, author={Zhang, Luyao (Sunshine)}, year={2022}, month={Nov} } 
+
+@article{zhang_2022d, title={Resources for Blockchain Network Studies}, url={https://ms.pubpub.org/pub/network}, journal={Machine Learning for Social Science}, author={Zhang, Luyao (Sunshine)}, year={2022}, month={Nov} } 
+
+@article{zhang_2022e, title={Machine Learning for Predictions}, url={https://ms.pubpub.org/pub/ml-prediction}, journal={Machine Learning for Social Science}, author={Zhang, Luyao (Sunshine)}, year={2022}, month={Nov} } 
+
+@article{zhang_chen_zhang_tong_2022, title={Visualizing Non-Fungible Token Ethics: A Case Study On CryptoPunks}, url={https://arxiv.org/abs/2206.12922}, journal={arXiv:2206.12922 [cs]}, author={Zhang, Yufan and Chen, Zichao and Zhang, Luyao and Tong, Xin}, year={2022}, month={Jun} } 
+
+@misc{machine intelligence makes human morals more important | zeynep tufekci_2016, url={https://www.youtube.com/watch?v=hSSmmlridUM&t=3s}, journal={www.youtube.com}, year={2016}, month={Nov} } 
+
+@misc{what is cryptopunk? why are they so expensive? - zipmex_2022, url={https://zipmex.com/learn/cryptopunk-explained/}, journal={zipmex.com}, year={2022}, month={Aug} } 
+
+@misc{title how to choice a good title?_2022, url={https://github.com/Rising-Stars-by-Sunshine/stats201-tutorial-prediction}, journal={GitHub}, year={2022}, month={Nov} }
+```
