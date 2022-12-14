@@ -105,6 +105,8 @@ Figure 4 is the histogram of Ridge Regression for Cryptopunks return on investme
 ### Headshot
 ![image](https://github.com/SunYutongAmber/Yutong-Sun/blob/main/img/WechatIMG2.jpeg)
 
+<img width="150" height="150" src="https://github.com/SunYutongAmber/Yutong-Sun/blob/main/img/WechatIMG2.jpeg"/>
+
 ### Self-introduction
 
 This is Yutong Sun, the research assistant at SciEcon CIC and a senior student majoring in Applied Mathematics and Computational Science at Duke Kunshan University. My research interest is in financial technology and financial mathematics. Previously, I have published some research papers on commercial leverage ratios, stock price-predicting, and stock quantitative investment strategy using machine learning models. 
