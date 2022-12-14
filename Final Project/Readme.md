@@ -46,9 +46,9 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 
 ## Data
 
-
-| Data source   | [Kaggle Cryptopunks data](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan)|[API](https://dune.com/queries/10021/19914) |
+| Data source   | URL | URL |
 | ------------- |:-------------:| -----:|
+| Data source   | [Kaggle Cryptopunks data](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan)|[API](https://dune.com/queries/10021/19914) |
 | Query data        | [Query data](https://raw.githubusercontent.com/SunYutongAmber/portfolio/main/Final%20Project/data/final_queried_data..csv) | |
 | Classification data | [Training data](https://raw.githubusercontent.com/SunYutongAmber/portfolio/main/Final%20Project/data/Final_Classification_Train.csv)      |   [Testing data](https://raw.githubusercontent.com/SunYutongAmber/portfolio/main/Final%20Project/data/Final_Classification_Test.csv) |
 | Regression data    | [Training data](https://raw.githubusercontent.com/SunYutongAmber/portfolio/main/Final%20Project/data/Final_Regression_Train_Cryptopunks.csv)     |  [Testing data](https://raw.githubusercontent.com/SunYutongAmber/portfolio/main/Final%20Project/data/Final_Regression_Test_Cryptopunks.csv) |
@@ -57,7 +57,7 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 ## Code
 
 
-| Code   | | 
+| Code   | URL | 
 | ------------- |:-------------:| 
 | Explanation data code    | [Explanation data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Explanatory_Cryptopunks_Data_Analysis.ipynb) |
 | Query data code  | [Query data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Project_Query_Cryptopunks_Data.ipynb) | 
