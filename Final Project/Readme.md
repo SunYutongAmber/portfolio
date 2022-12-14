@@ -72,7 +72,7 @@ $$y=b_{0}+b_{1}*X_{female}+b_{2}*X_{light}+b_{3}*X_{medium}+b_{4}*X_{alboni}$$
 
 ### Poster
 ![Figure 1. Project Poster](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20poster.png)
-Figure 1. The Project Poster (Created by [Canva](https://www.canva.com/design/DAFT52ikjIs/qxf0zRLnKI7RPB8R7W3j6w/edit)
+Figure 1. The Project Poster (Created by [Canva](https://www.canva.com/design/DAFT52ikjIs/qxf0zRLnKI7RPB8R7W3j6w/edit))
 
 Figure 1 illustrates six sections of the research: Intruduction to the project background and motivation, research questions, data sources and methodology, intellectual merits, expected Results, and references.
 
