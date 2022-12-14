@@ -39,10 +39,10 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 
 ## Table of Contents
 - [data](#data)
-- code
-- spotlight
-- More about the author
-- References
+- [code](#code)
+- [spotlight](#splotlight)
+- [More about the author](#ata)
+- [References](#reference)
 
 ## Data
 
@@ -55,10 +55,15 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 
 
 ## Code
-- Query Data
-- Process Data
-- Analyze Data
-- ...
+
+
+| Code   | | 
+| ------------- |:-------------:| 
+| Explanation data code    | [Explanation data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Explanatory_Cryptopunks_Data_Analysis.ipynb) |
+| Query data code  | [Query data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Project_Query_Cryptopunks_Data.ipynb) | 
+| Process data code | [ Process data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Process_Cryptopunk_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb) |
+| Analyze data code    | [Analyze data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Analyze_Cryptopunks_Data_Machine_Learning_for_Predicting_Market_Congestion.ipynb) |
+
 
 ## Spotlight
 
@@ -80,7 +85,7 @@ Figure 2. The ROI time series data
 - Presentations
 - Review articles
 - Media appearance
-
+## About the Author
 ## References
 
 ### Data Source
