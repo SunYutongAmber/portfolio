@@ -1,3 +1,5 @@
+# SunYutongAmber.github.io
+
 # Predicting the return on investment of Cryptopunks with gender and skin tone factors using Ridge Regression
 ## Project information
 - **Author**: Yutong Sun, Applied Math, Class of 2023, Duke Kunshan University
