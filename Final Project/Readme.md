@@ -38,11 +38,16 @@ $$y=b_{0}+b_{1}*X_{female}+b_{2}*X_{light}+b_{3}*X_{medium}+b_{4}*X_{alboni}$$
 Figure 3. The expected result of the predicted ROI and the true ROI
 
 ## Table of Contents
-- [data](#data)
-- [code](#code)
-- [spotlight](#spotlight)
-- [More about the author](#about-the-author)
-- [References](#references)
+
+| Contents   | URL | 
+| ------------- |:-------------:| 
+| code    | [Project code](https://github.com/SunYutongAmber/portfolio/tree/main/Final%20Project/code) |
+| data  | [Project data](https://github.com/SunYutongAmber/portfolio/tree/main/Final%20Project/data) | 
+| spotlight | [ Project spotlight](https://github.com/SunYutongAmber/portfolio/tree/main/Final%20Project/Splotlight) |
+| Author Bio   | [More about the author](#about-the-author) |
+| References   | [References](#references) |
+
+
 
 ## Data
 
@@ -64,10 +69,30 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 | Process data code | [ Process data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Process_Cryptopunk_Data_Prepare_X_and_Y_for_Classification_and_Regressions.ipynb) |
 | Analyze data code    | [Analyze data code](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/code/Final_Analyze_Cryptopunks_Data_Machine_Learning_for_Predicting_Market_Congestion.ipynb) |
 
-
 ## Spotlight
 
-- Figures
+### Poster
+![Figure 1. Project Poster](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20poster.png)
+Figure 1. The Project Poster (Created by [Canva](https://www.canva.com/design/DAFT52ikjIs/qxf0zRLnKI7RPB8R7W3j6w/edit)
+
+Figure 1 illustrates six sections of the research: Intruduction to the project background and motivation, research questions, data sources and methodology, intellectual merits, expected Results, and references.
+
+
+### Literature Review
+![Figure 2. The literature of intellectual merits](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20Literature%20Flow%20chart.png)
+Figure 2. The literature of intellectual merits (Created by [ProcessOn](https://www.processon.com/diagraming/63915c97e0b34d7ebd80b0f8))
+
+Figure 2 outlines the literature under intellectual merits. Figure 2 shows how I discuss the three lines of literature in aspects of the research question, methodology, and application scenario. The three pink boxes show the SoK/Survey papers for each line of literature. The five grey boxes are the most recent paper related to my resarch topic. And the three white boxes demonstrate what's this paper's unique contribution that differs from previous studies.
+
+
+### Explanation Product
+
+![Figure 3. The ROI time series data](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Scatter%20Plot%20for%20ROI%20over%20time.png) 
+
+Figure 3. The ROI time series data (source from [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), created by [Plotly](https://plotly.com/python/time-series/))
+
+Figure 3 
+
 
 
 ![Figure 1. The literature of intellectual merits](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20Literature%20Flow%20chart.png)
@@ -76,11 +101,11 @@ Figure 1. The literature of intellectual merits
 ![Figure 2. The ROI time series data](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Scatter%20Plot%20for%20ROI%20over%20time.png) 
 Figure 2. The ROI time series data
 
-![Figure 3. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png) 
+![Figure 3. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png)
+
+Figure 3. The expected result of the predicted ROI and the true ROI
 
 - Posters
-
-
 - Slides
 - Presentations
 - Review articles
