@@ -22,7 +22,7 @@
   - **Practical Use:** Our research explores the impact of the gender and skin tone factors on the prediction ROI of Cryptopunks. And the research results could be used by investors when making investment decision in the Cryptopunks market. 
 
 
-- **Application Scenario:** This project uses a [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), and this data set is drawn from the Cryptopunks Transaction board using API (DUON 2021). The original dataset contains information about the transaction date, the transaction address, the price of Cryptopunks, the gender, and other attributes of the Cryptopunks’ image. I use the percentage change of Cryptopunk price to get the return on investment value, which is the Y variable. And gender and skin tone are X variables. In Figure 2 in the Splotlight section, I visualize the ROI time series data with the x-axis being time and the y-axis ROI values.
+- **Application Scenario:** This project uses a [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), and this data set is drawn from the Cryptopunks Transaction board using API (DUON 2021). The date of the data set is from 2017 July to 2021 September. The original dataset contains information about the transaction date, the transaction address, the price of Cryptopunks, the gender, and other attributes of the Cryptopunks’ image. I use the percentage change of Cryptopunk price to get the return on investment value, which is the Y variable. And gender and skin tone are X variables. In Figure 2 in the Splotlight section, I visualize the ROI time series data with the x-axis being time and the y-axis ROI values.
 
 - **Methods:**
   - This research uses Ridge Regression to predict the ROI with gender and skin tone factors. Ridge regression is a method for estimating the coefficient of a multiple regression model. Compared to linear regression, this method improves the coefficient estimation accuracy and assigns different weights to the features (Hoerl and Kennard 1970). Using the regression formula with estimated coefficients from Ridge regression, we could conduct prediction.
@@ -85,32 +85,26 @@ Figure 2. The literature of intellectual merits (Created by [ProcessOn](https://
 Figure 2 outlines the literature under intellectual merits. Figure 2 shows how I discuss the three lines of literature in aspects of the research question, methodology, and application scenario. The three pink boxes show the SoK/Survey papers for each line of literature. The five grey boxes are the most recent paper related to my resarch topic. And the three white boxes demonstrate what's this paper's unique contribution that differs from previous studies.
 
 
-### Explanation Product
+### Explanation Figure
 
 ![Figure 3. The ROI time series data](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Scatter%20Plot%20for%20ROI%20over%20time.png) 
 
 Figure 3. The ROI time series data (source from [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), created by [Plotly](https://plotly.com/python/time-series/))
 
-Figure 3 
+Figure 3 is the scatter plot of the Cryptopunks' return on investment (ROI) data from 2017 July to 2021 September. The X-axis shows the timestamp and the Y-axis shows the ROI value of average of Cryptopunks in ETH. The line fluctuates between (-1 , 1) around the x-axis with no obvious increase or decrease pattern. As the time approaches to the present time, the fluctuation is more sever and frequent. That indicates that the ROI fluctuate more frequently comparing to the previous ROI data. And the highest ROI value is achieved around 2020 April, the lowest ROI value is reached around 2021 August.
 
 
+### Prediction Figure
+![Figure 4. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png)
 
-![Figure 1. The literature of intellectual merits](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Stats201%20Final%20Project%20Literature%20Flow%20chart.png)
-Figure 1. The literature of intellectual merits
+Figure 4. The expected result of the predicted ROI and the true ROI (source from [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), created by [sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.kernel_ridge))
 
-![Figure 2. The ROI time series data](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Scatter%20Plot%20for%20ROI%20over%20time.png) 
-Figure 2. The ROI time series data
+Figure 4 is the histogram of Ridge Regression for Cryptopunks return on investment (ROI) for the prediction value and the true value. For Ridge Prediction, the X variable is the past 10-day moving average of the daily ROI of Cryptopunks, and the Y variable is the future ROT. In figure 4, the X-axis is the ROI value of Cryptopunks and the Y-axis is number of counts. The higher the Y, the more Cryptopunk ROI value is in the corresponding interval.  Blue histogram bars represent the true ROI distribution and green bars represent the predicted ROI distribution. The histogram could provide an evaluation of the performance of the regression algorithm by observing the overlapping of the two colors of bars.The figure shows that the blue and green squares are overlapping. That is, the predicted results are close to the true value. That means this prediction is accurate. And we could find from the figure 4 that the green bars are taller than blue bars, because we have put more data in the testing dataset than the training dataset.
 
-![Figure 3. The expected result of the predicted ROI and the true ROI](https://github.com/SunYutongAmber/portfolio/blob/main/Final%20Project/Splotlight/Ridge%20Regression%20Predicted%20and%20True%20Value.png)
 
-Figure 3. The expected result of the predicted ROI and the true ROI
-
-- Posters
-- Slides
-- Presentations
-- Review articles
-- Media appearance
 ## About the Author
+
+
 ## References
 
 ### Data Source
