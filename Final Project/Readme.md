@@ -103,7 +103,7 @@ Figure 4 is the histogram of Ridge Regression for Cryptopunks return on investme
 
 ## About the Author
 ### Headshot
-<img width="150" height="170" src="https://github.com/SunYutongAmber/Yutong-Sun/blob/main/img/WechatIMG2.jpeg"/>
+<img width="150" height="190" src="https://github.com/SunYutongAmber/Yutong-Sun/blob/main/img/WechatIMG2.jpeg"/>
 
 ### Self-introduction
 
