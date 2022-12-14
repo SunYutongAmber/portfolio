@@ -117,15 +117,16 @@ This is Yutong Sun, the research assistant at SciEcon CIC and a senior student m
 ## References
 
 ### Data Source
-- Data Source Title and URL
+- [Generate NFT CryptoPunks with DGGAN](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan)
 ### Code Source
-- Code Source Title and URL
+- [stats201-tutorial-prediction/code](https://github.com/Rising-Stars-by-Sunshine/stats201-tutorial-prediction/tree/main/code)
+
 ### Literature
 - Literature References in [Chicago Author-Date](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html) Style and [BibTex](https://scholar.google.com/) 
 
 Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *The Review of Economics and Statistics* 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
 
-```
+
 @article{levin2022bridging,
   title={Bridging level-k to nash equilibrium},
   author={Levin, Dan and Zhang, Luyao},
@@ -136,5 +137,4 @@ Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *
   year={2022},
   publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
 }
-```
 
