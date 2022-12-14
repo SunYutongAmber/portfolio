@@ -99,11 +99,17 @@ Figure 3 is the scatter plot of the Cryptopunks' return on investment (ROI) data
 
 Figure 4. The expected result of the predicted ROI and the true ROI (source from [Kaggle dataset](https://www.kaggle.com/code/baotramduong/generate-nft-cryptopunks-with-dggan), created by [sklearn](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.kernel_ridge))
 
-Figure 4 is the histogram of Ridge Regression for Cryptopunks return on investment (ROI) for the prediction value and the true value. For Ridge Prediction, the X variable is the past 10-day moving average of the daily ROI of Cryptopunks, and the Y variable is the future ROT. In figure 4, the X-axis is the ROI value of Cryptopunks and the Y-axis is number of counts. The higher the Y, the more Cryptopunk ROI value is in the corresponding interval.  Blue histogram bars represent the true ROI distribution and green bars represent the predicted ROI distribution. The histogram could provide an evaluation of the performance of the regression algorithm by observing the overlapping of the two colors of bars.The figure shows that the blue and green squares are overlapping. That is, the predicted results are close to the true value. That means this prediction is accurate. And we could find from the figure 4 that the green bars are taller than blue bars, because we have put more data in the testing dataset than the training dataset.
-
+Figure 4 is the histogram of Ridge Regression for Cryptopunks return on investment (ROI) for the prediction value and the true value. For Ridge Prediction, the X variable is the past 10-day moving average of the daily ROI of Cryptopunks, and the Y variable is the future ROT. In figure 4, the X-axis is the ROI value of Cryptopunks and the Y-axis is number of counts. The higher the Y, the more Cryptopunk ROI value is in the corresponding X interval.  Blue histogram bars represent the true ROI distribution and green bars represent the predicted ROI distribution. The histogram could provide an evaluation of the performance of the regression algorithm by observing the overlapping of the two colors of bars. If the blue and green squares are overlapping, that means the predicted results are close to the true value and the model is accurate. However, we could find from the figure 4 that the green bars are taller than blue bars, which indicates that most of the predicted ROI are quite close to zero. That means Ridge is not quite accurate when using the past 10-day moving average of the daily ROI of Cryptopunks as the X variable.
 
 ## About the Author
+### Headshot
+![image](https://github.com/SunYutongAmber/Yutong-Sun/blob/main/img/WechatIMG2.jpeg)
 
+### Self-introduction
+
+This is Yutong Sun, the research assistant at SciEcon CIC and a senior student majoring in Applied Mathematics and Computational Science at Duke Kunshan University. My research interest is in financial technology and financial mathematics. Previously, I have published some research papers on commercial leverage ratios, stock price-predicting, and stock quantitative investment strategy using machine learning models. 
+
+### Final reflections
 
 ## References
 
