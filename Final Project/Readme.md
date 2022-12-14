@@ -40,9 +40,9 @@ Figure 3. The expected result of the predicted ROI and the true ROI
 ## Table of Contents
 - [data](#data)
 - [code](#code)
-- [spotlight](#splotlight)
-- [More about the author](#ata)
-- [References](#reference)
+- [spotlight](#spotlight)
+- [More about the author](#about-the-author)
+- [References](#references)
 
 ## Data
 
